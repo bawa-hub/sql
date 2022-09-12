@@ -13,3 +13,8 @@ https://github.com/mgramin/awesome-db-tools
 
 https://github.com/Releem/awesome-mysql-performance
 https://github.com/joseluisq/awesome-mysql-queries-commands
+
+# courses
+
+https://15445.courses.cs.cmu.edu/fall2022/
+https://15721.courses.cs.cmu.edu/spring2020/
