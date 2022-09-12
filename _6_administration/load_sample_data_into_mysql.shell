@@ -1,0 +1,5 @@
+> mysql -u root -p
+Enter password: ********
+
+mysql> use <db_name>;
+mysql> source c:\temp\mysqlsampledatabase.sql

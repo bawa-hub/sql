@@ -1,0 +1,1 @@
+-- a view is a named query stored in the database catalog.

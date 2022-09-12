@@ -1,0 +1,3 @@
+-- HAVING clause is used in the SELECT statement to specify filter conditions for a group of rows or aggregates.
+-- HAVING clause is often used with the GROUP BY clause to filter groups based on a specified condition. If you omit the GROUP BY clause, 
+-- the HAVING clause behaves like the WHERE clause
