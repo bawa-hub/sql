@@ -44,3 +44,10 @@ LIKE 	TRUE if the operand matches a pattern
 NOT 	Displays a record if the condition(s) is NOT TRUE 	
 OR 	TRUE if any of the conditions separated by OR is TRUE 	
 SOME 	TRUE if any of the subquery values meet the condition
+
+
+When working with null, you should remember:
+• An expression can be null, but it can never equal null.
+• Two nulls are never equal to each other.
+IS NULL To check whether expression is null or not
+IS NOT NULL To see whether a value has been assigned to a column
