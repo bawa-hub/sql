@@ -2,6 +2,7 @@
 
 https://www.sqltutorial.org/
 https://www.mysqltutorial.org/
+https://www.mysqltutorial.org/mysql-resources.aspx
 https://github.com/pingcap/awesome-database-learning
 https://github.com/danhuss/awesome-sql
 https://github.com/shlomi-noach/awesome-mysql
