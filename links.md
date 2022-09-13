@@ -2,10 +2,14 @@
 
 https://www.sqltutorial.org/
 https://www.mysqltutorial.org/
+https://roadmap.sh/postgresql-dba
+https://www.postgresqltutorial.com/
 https://www.mysqltutorial.org/mysql-resources.aspx
+
 https://github.com/pingcap/awesome-database-learning
 https://github.com/danhuss/awesome-sql
 https://github.com/shlomi-noach/awesome-mysql
+https://github.com/dhamaniasad/awesome-postgres
 https://docs.oracle.com/database/121/SQLRF/toc.htm
 https://github.com/mgramin/awesome-db-tools
 https://github.com/Releem/awesome-mysql-performance
