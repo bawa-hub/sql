@@ -2,8 +2,8 @@
 
 https://www.sqltutorial.org/
 https://www.mysqltutorial.org/
-https://roadmap.sh/postgresql-dba
 https://www.postgresqltutorial.com/
+https://roadmap.sh/postgresql-dba
 https://www.mysqltutorial.org/mysql-resources.aspx
 
 https://github.com/pingcap/awesome-database-learning
