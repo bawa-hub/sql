@@ -14,6 +14,8 @@ https://docs.oracle.com/database/121/SQLRF/toc.htm
 https://github.com/mgramin/awesome-db-tools
 https://github.com/Releem/awesome-mysql-performance
 https://github.com/joseluisq/awesome-mysql-queries-commands
+https://github.com/manjunath5496/MySQL-Books
+https://github.com/manjunath5496/Database-Books
 
 # courses
 
