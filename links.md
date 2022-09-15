@@ -36,3 +36,4 @@ https://medium.com/nerd-for-tech/sql-simplified-10-advanced-practice-problems-an
 https://www.sql-practice.com/
 https://learnsql.com/cookbook/
 https://mode.com/sql-tutorial/sql-sub-queries/
+https://github.com/dalers/mywind
