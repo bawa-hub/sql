@@ -5,6 +5,8 @@ https://www.mysqltutorial.org/
 https://www.postgresqltutorial.com/
 https://roadmap.sh/postgresql-dba
 https://www.mysqltutorial.org/mysql-resources.aspx
+cheatsheet - https://www.interviewbit.com/sql-cheat-sheet/
+https://kanakinfosystems.com/blog/sql-cheat-sheet
 
 https://github.com/pingcap/awesome-database-learning
 https://github.com/danhuss/awesome-sql
