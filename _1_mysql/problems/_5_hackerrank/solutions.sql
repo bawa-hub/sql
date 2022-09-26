@@ -26,3 +26,10 @@ SELECT DISTINCT CITY FROM STATION WHERE ID%2 = 0;
 SSELECT COUNT(CITY) - COUNT(DISTINCT CITY) FROM STATION;
 
 -- Whether Obsevation Station 5
+SELECT City, length(City) AS len FROM STATION
+ORDER BY len asc, City
+LIMIT 1;
+
+SELECT City, length(City) AS len FROM STATION
+ORDER BY len desc, City
+LIMIT 1;
