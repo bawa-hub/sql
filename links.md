@@ -7,6 +7,7 @@ https://roadmap.sh/postgresql-dba
 https://www.mysqltutorial.org/mysql-resources.aspx
 cheatsheet - https://www.interviewbit.com/sql-cheat-sheet/
 https://kanakinfosystems.com/blog/sql-cheat-sheet
+https://www.scaler.com/topics/sql/what-is-a-relational-database/
 
 https://github.com/pingcap/awesome-database-learning
 https://github.com/danhuss/awesome-sql
