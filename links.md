@@ -1,10 +1,12 @@
 # useful links --
 
+https://roadmap.sh/postgresql-dba
 https://www.sqltutorial.org/
 https://www.mysqltutorial.org/
 https://www.postgresqltutorial.com/
-https://roadmap.sh/postgresql-dba
-https://www.mysqltutorial.org/mysql-resources.aspx
+https://dev.mysql.com/doc/refman/8.0/en/
+https://www.postgresql.org/docs/current/index.html
+
 cheatsheet - https://www.interviewbit.com/sql-cheat-sheet/
 https://kanakinfosystems.com/blog/sql-cheat-sheet
 https://www.scaler.com/topics/sql/what-is-a-relational-database/
@@ -13,6 +15,7 @@ https://github.com/pingcap/awesome-database-learning
 https://github.com/danhuss/awesome-sql
 https://github.com/shlomi-noach/awesome-mysql
 https://github.com/dhamaniasad/awesome-postgres
+
 https://docs.oracle.com/database/121/SQLRF/toc.htm
 https://github.com/mgramin/awesome-db-tools
 https://github.com/Releem/awesome-mysql-performance
