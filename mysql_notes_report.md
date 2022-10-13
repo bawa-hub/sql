@@ -10,6 +10,10 @@
 
 ## 8. set operators
 
+## 9. Modifying data in mysql (ongoing)
+
+## 10. Mysql transaction (ongoing)
+
 ## 11. managing databases
 
 ## 14. constraints (ongoing)
