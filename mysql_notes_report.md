@@ -17,3 +17,5 @@
 ## 11. managing databases
 
 ## 14. constraints (ongoing)
+
+## 19. stored procedures (ongoing - section 1,2 completed)
