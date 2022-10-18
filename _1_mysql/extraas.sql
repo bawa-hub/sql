@@ -1,1 +1,1 @@
-explain analyze select * from anything;
+explain analyze select * from <table_name>;
