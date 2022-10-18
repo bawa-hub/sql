@@ -1,7 +1,3 @@
-# Days Counter
-
-## Day 0, Completed 6
-
 # completed notes
 
 ## 1. quering data
