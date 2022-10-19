@@ -6,7 +6,7 @@
 
 ## 3. filtering data
 
-## 4. joins (ongoing)
+## 4. joins (right, cross, self join rest)
 
 ## 5. grouping data (ongoing)
 
@@ -28,6 +28,14 @@
 
 ## 14. constraints (ongoing)
 
+## 18. triggers (ongoing)
+
 ## 19. stored procedures (ongoing - section 1,2 completed)
 
+## 20. views (ongoing)
+
+## 21. indexes (ongoing)
+
 ## 22. administration (ongoing - section 2 left)
+
+## 23. built in functions (ongoing)
