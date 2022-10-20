@@ -10,3 +10,7 @@ https://qxf2.com/blog/mysql-architecture-and-layers/
 # Source Code --
 
 https://dev.mysql.com/doc/dev/mysql-server/latest/
+
+# links
+
+https://stackoverflow.com/questions/675289/mysql-cloning-a-mysql-database-on-the-same-mysql-instance
