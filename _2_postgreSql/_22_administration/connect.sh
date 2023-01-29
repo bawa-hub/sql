@@ -11,5 +11,8 @@ psql # db connected
 # use database
 \c <db_name>
 
+# list of tables
+\dt
+
 # quit
 \q
