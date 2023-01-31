@@ -27,3 +27,6 @@ WHERE
 -- | Vanauf    | George    |
 -- +-----------+-----------+
 -- 10 rows in set (0.052 sec)
+
+-- eloquent version
+-- Employees::whereIn('officeCode, $officeCodes)

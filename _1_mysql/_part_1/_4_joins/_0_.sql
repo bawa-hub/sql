@@ -45,6 +45,7 @@ INNER JOIN committees c ON c.name = m.name; -- INNER JOIN committees c USING(nam
 
 -- Left Join
 -- the left join selects all data from the left table whether there are matching rows exist in the right table or not.
+-- In case there are no matching rows from the right table found, the left join uses NULLs for columns of the row from the right table in the result set.
 -- SELECT column_list 
 -- FROM table_1 
 -- LEFT JOIN table_2 ON join_condition;
@@ -106,6 +107,7 @@ WHERE m.member_id IS NULL;
 
 -- Cross Join
 -- cross join makes a Cartesian product of rows from the joined tables
+-- Suppose the first table has n rows and the second table has m rows. The cross join that joins the tables will return nxm rows.
 -- SELECT select_list
 -- FROM table_1
 -- CROSS JOIN table_2;

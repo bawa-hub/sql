@@ -6,36 +6,36 @@
 
 ## 3. filtering data
 
-## 4. joins (right, cross, self join rest)
+## 4. joins
 
-## 5. grouping data (ongoing)
+## 5. grouping data
 
-## 6. subqueries (ongoing)
+## 6. subqueries
 
 ## 7. cte
 
 ## 8. set operators
 
-## 9. Modifying data in mysql (ongoing)
+## 9. Modifying data in mysql
 
-## 10. Mysql transaction (ongoing)
+## 10. Mysql transaction
 
 ## 11. managing databases
 
-## 12. working with tables (ongoing)
+## 12. working with tables
 
-## 13. mysql data types (ongoing)
+## 13. mysql data types
 
-## 14. constraints (ongoing)
+## 14. constraints
 
-## 18. triggers (ongoing)
+## 18. triggers
 
-## 19. stored procedures (ongoing - section 1,2 completed)
+## 19. stored procedures
 
-## 20. views (ongoing)
+## 20. views
 
-## 21. indexes (ongoing)
+## 21. indexes
 
-## 22. administration (ongoing - section 2 left)
+## 22. administration
 
-## 23. built in functions (ongoing)
+## 23. built in functions
