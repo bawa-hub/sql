@@ -8,7 +8,7 @@
 
 ## 4. joins
 
-## 5. grouping data
+## 5. grouping data [ROLLUP_IS_REST]
 
 ## 6. subqueries
 
