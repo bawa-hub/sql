@@ -14,7 +14,7 @@
 
 ## 7. cte
 
-## 8. set operators
+## 8. set operators [DONE]
 
 ## 9. Modifying data in mysql
 

@@ -65,4 +65,5 @@ WHERE id IN (SELECT id FROM t2);
 -- How it works.
 
 --     The subquery returns the first result set.
---     The outer query uses the IN operator to select only values that exist in the first result set. The DISTINCT operator ensures that only distinct values are selected.
+--     The outer query uses the IN operator to select only values that exist in the first result set. 
+-- The DISTINCT operator ensures that only distinct values are selected.
