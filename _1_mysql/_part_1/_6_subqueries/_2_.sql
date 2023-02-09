@@ -1,3 +1,5 @@
+-- Using a MySQL subquery in the WHERE clause
+
 -- returns the customer who has the highest payment.
 
 SELECT 

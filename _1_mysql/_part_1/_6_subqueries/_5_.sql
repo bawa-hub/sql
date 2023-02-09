@@ -1,3 +1,5 @@
+-- MySQL correlated subquery
+
 -- select products whose buy prices are greater than the average buy price of all products in each product line.
 
 SELECT 

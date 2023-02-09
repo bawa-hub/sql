@@ -1,3 +1,5 @@
+-- MySQL subquery with IN and NOT IN operators
+
 --  find the customers who have not placed any orders as follows:
 
 SELECT 

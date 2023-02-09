@@ -10,7 +10,7 @@
 
 ## 5. grouping data [ROLLUP_IS_REST]
 
-## 6. subqueries
+## 6. subqueries [DONE]
 
 ## 7. cte
 

@@ -1,3 +1,5 @@
+-- MySQL subquery in the FROM clause
+
 -- finds the maximum, minimum, and average number of items in sale orders:
 
 SELECT 

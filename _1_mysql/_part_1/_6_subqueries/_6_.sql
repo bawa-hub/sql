@@ -1,3 +1,5 @@
+-- MySQL subquery with EXISTS and NOT EXISTS
+
 -- finds sales orders whose total values are greater than 60K.
 
 SELECT 
