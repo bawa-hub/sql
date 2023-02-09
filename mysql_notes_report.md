@@ -1,8 +1,8 @@
 # completed notes
 
-## 1. quering data
+## 1. quering data [DONE]
 
-## 2. sorting data
+## 2. sorting data [DONE]
 
 ## 3. filtering data
 
