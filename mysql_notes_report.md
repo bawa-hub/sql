@@ -1,20 +1,20 @@
 # completed notes
 
-## 1. quering data [DONE]
+## 1. quering data
 
-## 2. sorting data [DONE]
+## 2. sorting data
 
 ## 3. filtering data
 
 ## 4. joins
 
-## 5. grouping data [ROLLUP_IS_REST]
+## 5. grouping data
 
-## 6. subqueries [DONE]
+## 6. subqueries
 
 ## 7. cte
 
-## 8. set operators [DONE]
+## 8. set operators
 
 ## 9. Modifying data in mysql
 
