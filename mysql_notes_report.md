@@ -1,5 +1,7 @@
 # completed notes
 
+## 0. operators
+
 ## 1. quering data
 
 ## 2. sorting data
