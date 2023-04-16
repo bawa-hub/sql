@@ -5,7 +5,7 @@ FROM table_name
 ORDER BY sort_expression
 LIMIT n-1, 1;
 
--- inds the customer who has the second-highest credit:
+-- find the customer who has the second-highest credit:
 
 SELECT 
     customerName, 

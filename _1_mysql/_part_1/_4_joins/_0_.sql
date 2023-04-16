@@ -1,5 +1,5 @@
 -- Supported joins in Mysql:
--- inner join, left join, right join, cross join
+-- inner join, left join, right join, cross join, self join
 
 -- create two tables called members and committees:
 CREATE TABLE members (

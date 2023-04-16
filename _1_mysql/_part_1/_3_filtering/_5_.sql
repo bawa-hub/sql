@@ -20,7 +20,7 @@ FROM
 WHERE
     lastName LIKE '%on';
 
--- ind all employees whose last names contain the substring on:
+-- find all employees whose last names contain the substring on:
 
 SELECT 
     employeeNumber, 

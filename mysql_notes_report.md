@@ -1,28 +1,26 @@
-# completed notes
-
 ## 0. operators
 
-## 1. quering data
+## 1. quering data [DONE]
 
-## 2. sorting data
+## 2. sorting data [DONE]
 
-## 3. filtering data
+## 3. filtering data [DONE]
 
-## 4. joins
+## 4. joins [DONE]
 
-## 5. grouping data
+## 5. grouping data [DONE]
 
-## 6. subqueries
+## 6. subqueries [DONE]
 
-## 7. cte
+## 7. cte [DONE]
 
-## 8. set operators
+## 8. set operators [DONE]
 
 ## 9. Modifying data in mysql
 
-## 10. Mysql transaction
+## 10. Mysql transaction [DONE]
 
-## 11. managing databases
+## 11. managing databases [DONE]
 
 ## 12. working with tables
 
