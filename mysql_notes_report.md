@@ -16,17 +16,17 @@
 
 ## 8. set operators [DONE]
 
-## 9. Modifying data in mysql
+## 9. Modifying data in mysql [DONE]
 
 ## 10. Mysql transaction [DONE]
 
 ## 11. managing databases [DONE]
 
-## 12. working with tables
+## 12. working with tables [ONGOING]
 
-## 13. mysql data types
+## 13. mysql data types [ONGOING]
 
-## 14. constraints
+## 14. constraints [ONGOING]
 
 ## 18. triggers
 
