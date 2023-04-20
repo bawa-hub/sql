@@ -22,7 +22,7 @@
 
 ## 11. managing databases [DONE]
 
-## 12. working with tables [ONGOING]
+## 12. working with tables [DONE]
 
 ## 13. mysql data types [ONGOING]
 
@@ -36,6 +36,6 @@
 
 ## 21. indexes
 
-## 22. administration
+## 22. administration [DONE]
 
-## 23. built in functions
+## 23. built in functions [DONE]
