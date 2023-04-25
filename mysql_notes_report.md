@@ -28,11 +28,11 @@
 
 ## 14. constraints [ONGOING]
 
-## 18. triggers
+## 18. triggers [ONGOING]
 
 ## 19. stored procedures
 
-## 20. views
+## 20. views [ONGOING]
 
 ## 21. indexes [ONGOING]
 

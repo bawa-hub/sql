@@ -1,0 +1,2 @@
+SHOW FULL TABLES IN sys 
+WHERE table_type='VIEW';
