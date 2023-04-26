@@ -61,9 +61,11 @@ SELECT DISTINCT CITY FROM STATION WHERE LOWER(SUBSTRING(CITY ,1,1)) NOT IN ('a',
 SELECT Name FROM STUDENTS WHERE Marks > 75 ORDER BY SUBSTRING(Name, -3, LENGTH(Name)) ASC, ID;
 
 -- 19. Employee Names
-SELECT name FROM Employee ORDER BY name ASC;
+SELECT NAME FROM Employee ORDER BY name ASC;
 
 -- 20. Employee Salaries
+SELECT name FROM Employee WHERE salary > 2000 AND months < 10 ORDER BY employee_id;
+
 -- 21. Type of Traingle
 -- 22. The PADS
 -- 23. Occupations
