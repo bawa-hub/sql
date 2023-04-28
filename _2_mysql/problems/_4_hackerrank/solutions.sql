@@ -67,7 +67,21 @@ SELECT NAME FROM Employee ORDER BY name ASC;
 SELECT name FROM Employee WHERE salary > 2000 AND months < 10 ORDER BY employee_id;
 
 -- 21. Type of Traingle
+SELECT 
+    CASE 
+    WHEN (A + B <= C) OR (B + C <= A) OR (A + C <= B) THEN 'Not A Triangle'
+    WHEN (A=B) AND (B=C) THEN 'Equilateral' 
+    WHEN (A<>B) AND (B<>C) AND (A<>C) THEN 'Scalene'
+    WHEN ((A=B) AND (A<>C)) OR ((A=C) AND (A<>B)) OR ((B=C) AND (B<>A)) THEN 'Isosceles'
+    END
+from TRIANGLES;
+
 -- 22. The PADS
+select concat(name,'(', left(occupation,1),')' ) from OCCUPATIONS order by name, occupation; 
+
+select concat('There are a total of ', count(*),' ' ,lower(occupation),'s.') from occupations 
+group by occupation order by count(occupation),occupation asc ;
+
 -- 23. Occupations
 -- 24. Binary Tree Nodes
 -- 25. New Companies
@@ -79,7 +93,7 @@ SELECT name FROM Employee WHERE salary > 2000 AND months < 10 ORDER BY employee_
 -- 31. Population Density Difference
 -- 32. The Blunder
 -- 33. The Earners
--- 34. Whether Obsevation Station 2
+-- 34. Whether Obsevation Station 12
 -- 35. Whether Obsevation Station 13
 -- 35. Whether Obsevation Station 14
 -- 36. Whether Obsevation Station 15

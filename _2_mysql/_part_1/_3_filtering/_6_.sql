@@ -16,7 +16,8 @@ ORDER BY
     creditLimit DESC    
 LIMIT 1,1;
 
--- Note that this technique works when there are no two customers who have the same credit limits. To get a more accurate result, you should use the DENSE_RANK() window function.
+-- Note that this technique works when there are no two customers who have the same credit limits. 
+-- To get a more accurate result, you should use the DENSE_RANK() window function.
 
 -- return the first five unique states in the customers table:
 
