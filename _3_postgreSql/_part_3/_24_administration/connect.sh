@@ -16,3 +16,6 @@ psql # db connected
 
 # quit
 \q
+
+# import sql data
+https://www.a2hosting.com/kb/developer-corner/postgresql/import-and-export-a-postgresql-database/

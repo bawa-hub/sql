@@ -1,0 +1,1 @@
+pg_restore -U postgres -d dvdrental C:\users\sample_datbase\dvdrental.tar

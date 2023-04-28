@@ -1,4 +1,4 @@
-# useful links --
+# Tutorial links --
 
 https://roadmap.sh/postgresql-dba
 https://www.sqltutorial.org/
@@ -6,8 +6,13 @@ https://www.mysqltutorial.org/
 https://www.postgresqltutorial.com/
 https://www.mongodbtutorial.org/
 https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16
+
+# docs
+
 https://dev.mysql.com/doc/refman/8.0/en/
 https://www.postgresql.org/docs/current/index.html
+
+# useful links
 
 cheatsheet - https://www.interviewbit.com/sql-cheat-sheet/
 https://kanakinfosystems.com/blog/sql-cheat-sheet
