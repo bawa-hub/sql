@@ -93,7 +93,7 @@ group by occupation order by count(occupation),occupation asc ;
 -- 31. Population Density Difference
 -- 32. The Blunder
 -- 33. The Earners
--- 34. Whether Obsevation Station 12
+-- 34. Whether Obsevation Station 2
 -- 35. Whether Obsevation Station 13
 -- 35. Whether Obsevation Station 14
 -- 36. Whether Obsevation Station 15
