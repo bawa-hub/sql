@@ -5,14 +5,14 @@
 -- db design
 -- normalization
 
--- quering
--- sorting
--- filtering
+-- quering                         [ONGOING]
+-- sorting                         [ONGOING]
+-- filtering                       [DONE]
 -- grouping
 -- joins                           [DONE]
 -- subqueries
 -- sets operators
--- cte                             
+-- cte     
 
 -- managing databases
 -- managing tables
