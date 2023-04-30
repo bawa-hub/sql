@@ -9,10 +9,10 @@
 -- sorting
 -- filtering
 -- grouping
--- joins
+-- joins                           [DONE]
 -- subqueries
 -- sets operators
--- cte
+-- cte                             
 
 -- managing databases
 -- managing tables
