@@ -4,7 +4,7 @@
 -- grouping                        
 -- joins                           [DONE]
 -- subqueries                      [DONE]
--- cte                             
+-- cte                             [ONGOING]
 -- sets operators
 
 -- operators
