@@ -1,18 +1,18 @@
+-- quering                         [DONE]
+-- sorting                         [DONE]
+-- filtering                       [DONE]
+-- grouping                        
+-- joins                           [DONE]
+-- subqueries                      [ONGOING]
+-- cte                             
+-- sets operators
+
 -- operators
 -- data types 
 -- constraints
 
 -- db design
 -- normalization
-
--- quering                         [DONE]
--- sorting                         [DONE]
--- filtering                       [DONE]
--- grouping                        [ONGOING]
--- joins                           [DONE]
--- subqueries                      [ONGOING]
--- sets operators
--- cte                             [ONGOING]
 
 -- managing databases
 -- managing tables
