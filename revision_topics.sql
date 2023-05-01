@@ -8,11 +8,11 @@
 -- quering                         [DONE]
 -- sorting                         [DONE]
 -- filtering                       [DONE]
--- grouping
+-- grouping                        [ONGOING]
 -- joins                           [DONE]
--- subqueries
+-- subqueries                      [ONGOING]
 -- sets operators
--- cte     
+-- cte                             [ONGOING]
 
 -- managing databases
 -- managing tables
