@@ -5,8 +5,8 @@
 -- db design
 -- normalization
 
--- quering                         [ONGOING]
--- sorting                         [ONGOING]
+-- quering                         [DONE]
+-- sorting                         [DONE]
 -- filtering                       [DONE]
 -- grouping
 -- joins                           [DONE]
