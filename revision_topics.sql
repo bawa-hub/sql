@@ -3,17 +3,13 @@
 -- filtering                       [DONE]
 -- grouping                        
 -- joins                           [DONE]
--- subqueries                      [ONGOING]
+-- subqueries                      [DONE]
 -- cte                             
 -- sets operators
 
 -- operators
 -- data types 
 -- constraints
-
--- db design
--- normalization
-
 -- managing databases
 -- managing tables
 -- modifying data
@@ -29,6 +25,9 @@
 -- full text search
 
 -- administration
+
+-- db design
+-- normalization
 
 -- db internals
 -- CAP theorem
