@@ -7,14 +7,6 @@
 -- cte                             [ONGOING]
 -- sets operators
 
--- operators
--- data types 
--- constraints
--- managing databases
--- managing tables
--- modifying data
--- transactions
-
 -- views
 -- indexes
 -- triggers
@@ -24,8 +16,15 @@
 -- built in functions
 -- full text search
 
--- administration
+-- operators
+-- data types 
+-- constraints
+-- managing databases
+-- managing tables
+-- modifying data
+-- transactions
 
+-- administration
 -- db design
 -- normalization
 
