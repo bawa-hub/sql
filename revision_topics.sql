@@ -1,39 +1,38 @@
--- quering                         [DONE]
--- sorting                         [DONE]
--- filtering                       [DONE]
--- grouping                        
--- joins                           [DONE]
--- subqueries                      [DONE]
--- cte                             [ONGOING]
--- sets operators
+-- 1. quering                         [DONE]
+-- 2. sorting                         [DONE]
+-- 3. filtering                       [DONE]
+-- 4. grouping                        
+-- 5. joins                           [DONE]
+-- 6. subqueries                      [DONE]
+-- 7. cte                             [ONGOING]
+-- 8. sets operators
+-- 9. built in functions              [ONGOING]
 
--- views
--- indexes
--- triggers
--- stored procedures
--- cursors
+-- 10. views
+-- 11. stored procedures
+-- 12. triggers
+-- 13. cursors
+-- 14. full text search
 
--- built in functions
--- full text search
+-- 15. operators
+-- 16. data types 
+-- 17. constraints
+-- 18. managing databases
+-- 19. managing tables
+-- 20. indexes
+-- 21. modifying data
+-- 22. transactions
 
--- operators
--- data types 
--- constraints
--- managing databases
--- managing tables
--- modifying data
--- transactions
+-- 23. administration
+-- 24. db design
+-- 25. normalization
 
--- administration
--- db design
--- normalization
-
--- db internals
--- CAP theorem
--- ACID
--- concurrency and locking
--- sharding and partioning
--- replication
--- storage engines
--- security
--- system design
+-- 26. db internals
+-- 27. CAP theorem
+-- 28. ACID
+-- 29. concurrency and locking
+-- 30. sharding and partioning
+-- 31. replication
+-- 32. storage engines
+-- 33. security
+-- 34. system design
