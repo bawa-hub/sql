@@ -1,12 +1,12 @@
--- 1. quering                         [DONE]
--- 2. sorting                         [DONE]
--- 3. filtering                       [DONE]
+-- 1. quering                        
+-- 2. sorting                     
+-- 3. filtering                       
 -- 4. grouping                        
--- 5. joins                           [DONE]
--- 6. subqueries                      [DONE]
--- 7. cte                             [ONGOING]
+-- 5. joins                           
+-- 6. subqueries                     
+-- 7. cte                             
 -- 8. sets operators
--- 9. built in functions              [ONGOING]
+-- 9. built in functions              
 
 -- 10. views
 -- 11. stored procedures
@@ -31,7 +31,7 @@
 -- 27. CAP theorem
 -- 28. ACID
 -- 29. concurrency and locking
--- 30. sharding and partioning
+-- 30. sharding, partioning and federation
 -- 31. replication
 -- 32. storage engines
 -- 33. security
