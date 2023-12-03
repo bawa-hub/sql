@@ -1,12 +1,15 @@
--- 1. quering                        
--- 2. sorting                     
+-- 1. quering         [done]              
+-- 2. sorting         [done]            
 -- 3. filtering                       
--- 4. grouping                        
--- 5. joins                           
+-- 4. grouping    
+                    
+-- 5. joins           [ongoing]                
 -- 6. subqueries                     
 -- 7. cte                             
 -- 8. sets operators
--- 9. built in functions              
+
+-- 9. built in functions   
+-- 9a. window functions           
 
 -- 10. views
 -- 11. stored procedures
@@ -15,15 +18,16 @@
 -- 14. full text search
 
 -- 15. operators
--- 16. data types 
--- 17. constraints
--- 18. managing databases
--- 19. managing tables
+-- 16. data types           [ongoing]
+-- 17. constraints and keys
+-- 18. managing databases    [done]
+-- 19. managing tables       [done]
 -- 20. indexes
 -- 21. modifying data
 -- 22. transactions
 
 -- 23. administration
+
 -- 24. db design
 -- 25. normalization
 

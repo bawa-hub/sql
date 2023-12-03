@@ -5,6 +5,11 @@
 --    table_constraints
 -- ) ENGINE=storage_engine;
 
+CREATE TABLE [IF NOT EXISTS] table_name(
+   column1 datatype constraints,
+   column1 datatype constraints,
+) ENGINE=storage_engine;
+
 
 -- syntax of column
 -- column_name data_type(length) [NOT NULL] [DEFAULT value] [AUTO_INCREMENT] column_constraint;

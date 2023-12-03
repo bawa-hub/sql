@@ -1,3 +1,10 @@
+# login to database 
+sudo -i -u postgres
+psql
+
+# change password
+\password <username>
+
 # Connect to PostgreSQL database
 psql -d <db_name> -U  <user_name> -W
 psql -h <host_address> -d <db_name> -U  <user_name> -W # database that resides on another host

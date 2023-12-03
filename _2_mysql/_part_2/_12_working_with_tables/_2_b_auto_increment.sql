@@ -1,4 +1,5 @@
--- To create a sequence in MySQL automatically, you set the AUTO_INCREMENT attribute for a column, which typically is a primary key column
+-- To create a sequence in MySQL automatically, you set the AUTO_INCREMENT attribute for a column, 
+-- which typically is a primary key column
 
 -- following rules are applied when you use the AUTO_INCREMENT attribute:
 --     Each table has only one AUTO_INCREMENT column whose data type is typically the integer.
