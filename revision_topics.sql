@@ -1,10 +1,9 @@
 -- 1. quering         [done]              
 -- 2. sorting         [done]            
 -- 3. filtering                       
--- 4. grouping    
-                    
--- 5. joins           [ongoing]                
--- 6. subqueries                     
+-- 4. grouping                
+-- 5. joins           [done]                
+-- 6. subqueries      [ongoing]               
 -- 7. cte                             
 -- 8. sets operators
 
@@ -19,10 +18,10 @@
 
 -- 15. operators
 -- 16. data types           [ongoing]
--- 17. constraints and keys
+-- 17. constraints and keys  
 -- 18. managing databases    [done]
 -- 19. managing tables       [done]
--- 20. indexes
+-- 20. indexes                
 -- 21. modifying data
 -- 22. transactions
 
