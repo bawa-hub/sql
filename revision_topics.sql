@@ -1,16 +1,15 @@
 -- 1. quering         [done]              
 -- 2. sorting         [done]            
--- 3. filtering                       
--- 4. grouping                
+-- 3. filtering       [done]               
+-- 4. grouping        [done]       
 -- 5. joins           [done]                
--- 6. subqueries      [ongoing]               
+-- 6. subqueries      [done]               
 -- 7. cte                             
 -- 8. sets operators
-
 -- 9. built in functions   
--- 9a. window functions           
-
--- 10. views
+-- 9a. window functions      
+     
+-- 10. views and materialized views
 -- 11. stored procedures
 -- 12. triggers
 -- 13. cursors
@@ -24,9 +23,7 @@
 -- 20. indexes                
 -- 21. modifying data
 -- 22. transactions
-
 -- 23. administration
-
 -- 24. db design
 -- 25. normalization
 
@@ -39,3 +36,12 @@
 -- 32. storage engines
 -- 33. security
 -- 34. system design
+
+--35. profiling
+--36. performace monnitoring and tuning
+--37. performance/query optimization 
+
+-- database architecture and design
+-- OLAP and OLTP
+-- sql tuning
+-- automation script for routing database task
