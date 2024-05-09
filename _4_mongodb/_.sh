@@ -14,3 +14,9 @@ mongoimport --db stocks --collection stocks --file stocks.json
 help
 
 # https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
+
+# if MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017 happens
+mkdir $HOME/data
+mongod --dbpath $HOME/data
+
+ mongosh
