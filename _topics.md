@@ -39,6 +39,22 @@
     Triggers: Creating triggers for insert, update, and delete events
     Transactions: Isolation levels, saving and rolling back transactions
 
+6. Performance Optimization
+
+    Indexes
+        Types of indexes: B-tree, Full-text, Hash
+        How to use EXPLAIN to analyze queries
+        Covering indexes, composite indexes
+
+    Query Optimization
+        Query execution plans
+        Optimizing slow queries
+        Avoiding full table scans
+
+    Partitioning & Sharding
+        Horizontal vs. Vertical partitioning
+        MySQL sharding strategies    
+
 6. Indexing and Optimization
 
     Types of indexes (single-column, multi-column, composite)
@@ -47,6 +63,21 @@
     Query execution plans and EXPLAIN
     Caching strategies and query performance improvements
 
+
+6. Query Optimization & Performance Tuning
+
+✔️ EXPLAIN & EXPLAIN ANALYZE for Query Plans
+✔️ Understanding Query Execution Order
+✔️ Using SHOW PROFILE to Analyze Query Performance
+✔️ Indexing Strategies:
+
+    Covering Index
+    Partial Index
+    Functional Index
+    ✔️ Query Caching & Result Caching
+    ✔️ Avoiding Full Table Scans
+    ✔️ Performance Benchmarking
+
 7. Advanced Performance Tuning
 
     Query optimization techniques: Joins, subqueries, and indexing
@@ -54,12 +85,36 @@
     Server profiling, slow query logs, and query cache tuning
     Optimizing disk I/O and memory usage
 
+8. Database Design & Normalization
+
+    Understanding Database Design
+        Primary keys, foreign keys, unique constraints
+        Relationships (one-to-one, one-to-many, many-to-many)
+        Indexing and performance considerations
+
+    Normalization
+        1NF, 2NF, 3NF, BCNF, etc.
+        When to normalize vs. denormalize    
+
 8. Data Integrity and Constraints
 
     Foreign keys and referential integrity
     Cascading operations (ON DELETE CASCADE, ON UPDATE CASCADE)
     Unique constraints and composite keys
     Data validation strategies and triggers
+
+9. Concurrency & Transactions
+
+    ACID Properties
+        Atomicity, Consistency, Isolation, Durability
+
+    Transaction Management
+        COMMIT, ROLLBACK, SAVEPOINT
+        Isolation levels: Read Uncommitted, Read Committed, Repeatable Read, Serializable
+
+    Locking Mechanisms
+        Row-level, table-level, and deadlocks
+        Optimistic vs. Pessimistic locking    
 
 9. Transactions and ACID Properties
 
@@ -77,6 +132,20 @@
     Security best practices (password management, SSL encryption)
     Protecting against SQL Injection attacks
 
+10. Security & Best Practices
+
+    User Management & Authentication
+        Creating users and assigning privileges
+        Role-based access control
+
+    SQL Injection Prevention
+        Using prepared statements
+        Best practices for secure queries
+
+    Backup & Recovery
+        Logical and physical backups
+        Point-in-time recovery
+
 11. Backup, Restore, and High Availability
 
     Backup strategies: Full backups, incremental backups, and point-in-time backups
@@ -85,6 +154,20 @@
     Point-in-time recovery with binary logs
     Master-slave replication and failover
     Using MySQL Group Replication and MySQL InnoDB Cluster for high availability
+
+12. High Availability & Scaling
+
+    Replication
+        Master-Slave and Master-Master replication
+        Read replicas
+
+    Clustering
+        MySQL Cluster basics
+        Galera Cluster
+
+    Scaling Strategies
+        Load balancing
+        Connection pooling
 
 12. Replication and Clustering
 
@@ -140,99 +223,19 @@
     Integrating MySQL with back-end frameworks (Node.js, Django, etc.)
     Performance tuning in live systems
 
-
-
-
-
-
-Database Design & Normalization
-
-    Understanding Database Design
-        Primary keys, foreign keys, unique constraints
-        Relationships (one-to-one, one-to-many, many-to-many)
-        Indexing and performance considerations
-
-    Normalization
-        1NF, 2NF, 3NF, BCNF, etc.
-        When to normalize vs. denormalize
-
-Performance Optimization
-
-    Indexes
-        Types of indexes: B-tree, Full-text, Hash
-        How to use EXPLAIN to analyze queries
-        Covering indexes, composite indexes
-
-    Query Optimization
-        Query execution plans
-        Optimizing slow queries
-        Avoiding full table scans
-
-    Partitioning & Sharding
-        Horizontal vs. Vertical partitioning
-        MySQL sharding strategies
-
-Query Optimization & Performance Tuning
-
-✔️ EXPLAIN & EXPLAIN ANALYZE for Query Plans
-✔️ Understanding Query Execution Order
-✔️ Using SHOW PROFILE to Analyze Query Performance
-✔️ Indexing Strategies:
-
-    Covering Index
-    Partial Index
-    Functional Index
-    ✔️ Query Caching & Result Caching
-    ✔️ Avoiding Full Table Scans
-    ✔️ Performance Benchmarking
-
-Concurrency & Transactions
-
-    ACID Properties
-        Atomicity, Consistency, Isolation, Durability
-
-    Transaction Management
-        COMMIT, ROLLBACK, SAVEPOINT
-        Isolation levels: Read Uncommitted, Read Committed, Repeatable Read, Serializable
-
-    Locking Mechanisms
-        Row-level, table-level, and deadlocks
-        Optimistic vs. Pessimistic locking
-
-High Availability & Scaling
-
-    Replication
-        Master-Slave and Master-Master replication
-        Read replicas
-
-    Clustering
-        MySQL Cluster basics
-        Galera Cluster
-
-    Scaling Strategies
-        Load balancing
-        Connection pooling
-
-Security & Best Practices
-
-    User Management & Authentication
-        Creating users and assigning privileges
-        Role-based access control
-
-    SQL Injection Prevention
-        Using prepared statements
-        Best practices for secure queries
-
-    Backup & Recovery
-        Logical and physical backups
-        Point-in-time recovery
-
-Real-World Projects & Case Studies
+19. Real-World Projects & Case Studies
 
     Designing a real-world database schema
     Building a high-performance application with MySQL
     Implementing replication and sharding
     Running performance benchmarks
+
+
+
+
+
+
+
 
 Backup, Recovery & Disaster Planning
 
@@ -250,3 +253,148 @@ Real-World Projects & Case Studies
  1️⃣ Partitioning Large Tables for Performance
 2️⃣ Query Caching & Buffer Pool Optimization
 3️⃣ Indexing for Multi-Tenant Databases
+
+
+📌 Step 1: MySQL Basics
+
+✔️ What is MySQL? How it Works?
+✔️ MySQL Architecture (Storage Engines, Query Optimizer, Buffer Pool)
+✔️ Installation & Setup (Mac, Docker, Cloud)
+✔️ Database & Table Creation
+✔️ Data Types (INT, VARCHAR, DATE, JSON, BLOB, etc.)
+✔️ CRUD Operations (SELECT, INSERT, UPDATE, DELETE)
+
+📌 Step 2: Database Design & Normalization
+
+✔️ Primary Keys, Foreign Keys, and Constraints
+✔️ Relationships: One-to-One, One-to-Many, Many-to-Many
+✔️ Indexes: Single-Column, Composite, Full-Text, Hash
+✔️ Normalization (1NF → 5NF), Denormalization When Needed
+✔️ Data Integrity (Check Constraints, Triggers)
+
+📌 Step 3: Advanced SQL Queries
+
+✔️ GROUP BY, HAVING, Window Functions (ROW_NUMBER(), RANK())
+✔️ Common Table Expressions (CTEs)
+✔️ Recursive Queries
+✔️ Joins (INNER, LEFT, RIGHT, FULL, SELF)
+✔️ Subqueries & Correlated Subqueries
+✔️ UNION, INTERSECT, EXCEPT
+✔️ JSON Functions (Parsing JSON in MySQL)
+📌 Step 4: Stored Procedures, Triggers & Events
+
+✔️ Writing Stored Procedures & Functions (IN, OUT, INOUT Parameters)
+✔️ Error Handling in Stored Procedures
+✔️ Cursors: When & How to Use Them
+✔️ Triggers (Before/After INSERT, UPDATE, DELETE)
+✔️ Event Scheduler (Automating Tasks)
+📌 Step 5: Transactions & Concurrency
+
+✔️ ACID Properties in Detail
+✔️ Isolation Levels:
+
+    Read Uncommitted
+    Read Committed
+    Repeatable Read
+    Serializable
+    ✔️ Deadlocks: How to Detect & Resolve
+    ✔️ Locking Mechanisms:
+    Table Locks
+    Row Locks
+    Gap Locks
+    ✔️ Optimistic vs. Pessimistic Locking
+
+📌 Step 6: Query Optimization & Performance Tuning
+
+✔️ EXPLAIN & EXPLAIN ANALYZE for Query Plans
+✔️ Understanding Query Execution Order
+✔️ Using SHOW PROFILE to Analyze Query Performance
+✔️ Indexing Strategies:
+
+    Covering Index
+    Partial Index
+    Functional Index
+    ✔️ Query Caching & Result Caching
+    ✔️ Avoiding Full Table Scans
+    ✔️ Performance Benchmarking
+
+📌 Step 7: Partitioning & Sharding
+
+✔️ Table Partitioning (Range, List, Hash, Key)
+✔️ Vertical vs. Horizontal Partitioning
+✔️ Sharding Strategies (Application-Level, Proxy-Based)
+✔️ Federated Tables in MySQL
+📌 Step 8: High Availability & Scaling
+
+✔️ Replication (Master-Slave, Master-Master, GTID Replication)
+✔️ Failover Handling (Semi-Synchronous, Heartbeat Monitoring)
+✔️ Load Balancing (MySQL Proxy, HAProxy, ProxySQL)
+✔️ MySQL Clustering (Galera Cluster, MySQL NDB Cluster)
+📌 Step 9: Security & Best Practices
+
+✔️ User Roles & Permissions (GRANT, REVOKE)
+✔️ Row-Level Security (Per-User Data Access)
+✔️ SQL Injection Prevention (Prepared Statements, ORM)
+✔️ Data Encryption (TLS, AES Encryption)
+✔️ Audit Logging & Compliance
+📌 Step 10: Backup, Recovery & Disaster Planning
+
+✔️ Backup Strategies (Logical, Physical, Incremental)
+✔️ Point-in-Time Recovery (Binary Logs)
+✔️ Failover Planning
+📌 Step 11: MySQL for Large-Scale Applications
+
+✔️ Multi-Tenant Database Design
+✔️ Time-Series Data in MySQL
+✔️ Handling Millions of Rows Efficiently
+✔️ Using MySQL with Kafka for Real-Time Data Processing
+✔️ MySQL vs. NoSQL – When to Use What?
+
+
+-- 1. quering                    
+-- 2. sorting                    
+-- 3. filtering                      
+-- 4. grouping             
+-- 5. joins                          
+-- 6. subqueries                   
+-- 7. cte                             
+-- 8. sets operators
+-- 9. built in functions   
+-- 9a. window functions      
+     
+-- 10. views and materialized views
+-- 11. stored procedures
+-- 12. triggers
+-- 13. cursors
+-- 14. full text search
+
+-- 15. operators
+-- 16. data types          
+-- 17. constraints and keys  
+-- 18. managing databases    
+-- 19. managing tables     
+-- 20. indexes                
+-- 21. modifying data
+-- 22. transactions
+-- 23. administration
+-- 24. db design
+-- 25. normalization
+
+-- 26. db internals
+-- 27. CAP theorem
+-- 28. ACID
+-- 29. concurrency and locking
+-- 30. sharding, partioning and federation
+-- 31. replication
+-- 32. storage engines
+-- 33. security
+-- 34. system design
+
+--35. profiling
+--36. performace monnitoring and tuning
+--37. performance/query optimization 
+
+-- database architecture and design
+-- OLAP and OLTP
+-- sql tuning
+-- automation script for routing database task
