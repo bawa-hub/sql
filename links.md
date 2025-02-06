@@ -1,5 +1,24 @@
-# Tutorial links --
+# playlist
+https://www.youtube.com/playlist?list=PL08903FB7ACA1C2FB
+https://www.youtube.com/playlist?list=PL6n9fhu94yhXg5A0Fl3CQAo1PbOcRPjd0
+https://www.youtube.com/playlist?list=PL6n9fhu94yhXcztdLO7i6mdyaegC8CJwR
 
+# indexing
+https://www.youtube.com/watch?v=YuRO9-rOgv4
+
+# b-ree
+https://www.youtube.com/watch?v=K1a2Bk8NrYQ
+
+# normalization
+https://www.youtube.com/watch?v=GFQaEYEc8_8
+
+# keys
+https://www.youtube.com/watch?v=8wUUMOKAK-c
+
+# Relationships in sql --
+https://blog.devart.com/types-of-relationships-in-sql-server-database.html
+
+# Tutorial links --
 https://roadmap.sh/postgresql-dba
 https://www.sqltutorial.org/
 https://www.mysqltutorial.org/
