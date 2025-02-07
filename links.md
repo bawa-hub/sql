@@ -4,7 +4,10 @@ https://www.youtube.com/playlist?list=PL6n9fhu94yhXg5A0Fl3CQAo1PbOcRPjd0
 https://www.youtube.com/playlist?list=PL6n9fhu94yhXcztdLO7i6mdyaegC8CJwR
 
 # indexing
+https://www.youtube.com/watch?v=6ZquiVH8AGU&t=4311s
 https://www.youtube.com/watch?v=YuRO9-rOgv4
+https://www.youtube.com/watch?v=-qNSXK7s7_w
+https://www.youtube.com/watch?v=wj7KEMEkMUE
 
 # b-ree
 https://www.youtube.com/watch?v=K1a2Bk8NrYQ
@@ -20,7 +23,6 @@ https://www.youtube.com/watch?v=8wUUMOKAK-c
 
 # Relationships in sql --
 https://blog.devart.com/types-of-relationships-in-sql-server-database.html
-
 
 
 # architecture

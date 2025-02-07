@@ -5,21 +5,14 @@
     MySQL Workbench setup
     MySQL configuration file (my.cnf or my.ini)
 
-2. Database Basics
-
-    Creating a database
-    Understanding the difference between databases, schemas, and tables
-    Data types in detail (numeric, string, date/time, binary)
-    Default values, auto-increment, and nullability
-
 2. MySQL Basics
 
-   ✔️ What is MySQL? How it Works?
-   ✔️ MySQL Architecture (Storage Engines, Query Optimizer, Buffer Pool)
-   ✔️ Installation & Setup (Mac, Docker, Cloud)
-   ✔️ Database & Table Creation
-   ✔️ Data Types (INT, VARCHAR, DATE, JSON, BLOB, etc.)
-   ✔️ CRUD Operations (SELECT, INSERT, UPDATE, DELETE)
+    What is MySQL? How it Works?
+    MySQL Architecture (Storage Engines, Query Optimizer, Buffer Pool)
+    Installation & Setup (Mac, Docker, Cloud)
+    Database & Table Creation
+    Data Types (INT, VARCHAR, DATE, JSON, BLOB, etc.)
+    CRUD Operations (SELECT, INSERT, UPDATE, DELETE)
 
 3. SQL Basics
 
@@ -47,24 +40,18 @@
     Stored procedures and functions: Syntax, advantages, and use cases
     Triggers: Creating triggers for insert, update, and delete events
     Transactions: Isolation levels, saving and rolling back transactions
-
-5. Stored Procedures, Triggers & Events
-
-    ✔️ Writing Stored Procedures & Functions (IN, OUT, INOUT Parameters)
-    ✔️ Error Handling in Stored Procedures
-    ✔️ Cursors: When & How to Use Them
-    ✔️ Triggers (Before/After INSERT, UPDATE, DELETE)
-    ✔️ Event Scheduler (Automating Tasks)
-
-5. Advanced SQL Queries
-
-    ✔️ GROUP BY, HAVING, Window Functions (ROW_NUMBER(), RANK())
-    ✔️ Common Table Expressions (CTEs)
-    ✔️ Recursive Queries
-    ✔️ Joins (INNER, LEFT, RIGHT, FULL, SELF)
-    ✔️ Subqueries & Correlated Subqueries
-    ✔️ UNION, INTERSECT, EXCEPT
-    ✔️ JSON Functions (Parsing JSON in MySQL)
+    Writing Stored Procedures & Functions (IN, OUT, INOUT Parameters)
+    Error Handling in Stored Procedures
+    Cursors: When & How to Use Them
+    Triggers (Before/After INSERT, UPDATE, DELETE)
+    Event Scheduler (Automating Tasks)
+    GROUP BY, HAVING, Window Functions (ROW_NUMBER(), RANK())
+    Common Table Expressions (CTEs)
+    Recursive Queries
+    Joins (INNER, LEFT, RIGHT, FULL, SELF)
+    Subqueries & Correlated Subqueries
+    UNION, INTERSECT, EXCEPT
+    JSON Functions (Parsing JSON in MySQL)
 
 6. Performance Optimization
 
@@ -82,28 +69,11 @@
         Horizontal vs. Vertical partitioning
         MySQL sharding strategies   
 
-6. Query Optimization & Performance Tuning
-
-    ✔️ EXPLAIN & EXPLAIN ANALYZE for Query Plans
-    ✔️ Understanding Query Execution Order
-    ✔️ Using SHOW PROFILE to Analyze Query Performance
-    ✔️ Indexing Strategies:
-
-    Covering Index
-    Partial Index
-    Functional Index
-    ✔️ Query Caching & Result Caching
-    ✔️ Avoiding Full Table Scans
-    ✔️ Performance Benchmarking
-
-6. Indexing and Optimization
-
     Types of indexes (single-column, multi-column, composite)
     Index creation and best practices for indexing
     Full-text search indexing
     Query execution plans and EXPLAIN
-    Caching strategies and query performance improvements
-
+    Caching strategies and query performance improvements   
 
 6. Query Optimization & Performance Tuning
 
