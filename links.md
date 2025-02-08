@@ -1,16 +1,20 @@
-# playlist
-https://www.youtube.com/playlist?list=PL08903FB7ACA1C2FB
-https://www.youtube.com/playlist?list=PL6n9fhu94yhXg5A0Fl3CQAo1PbOcRPjd0
-https://www.youtube.com/playlist?list=PL6n9fhu94yhXcztdLO7i6mdyaegC8CJwR
+https://register.educosys.com/new-courses/25?activeTab=content
+
+# Database internals
+how database work - https://www.youtube.com/watch?v=8ogJlOIxKVE
+
+# b-tree
+https://www.youtube.com/watch?v=K1a2Bk8NrYQ
+https://www.youtube.com/watch?v=mgG0ecyNrfU&t=18s
+https://www.youtube.com/watch?v=09E-tVAUqQw&t=13s
+working with billion row table - https://www.youtube.com/watch?v=wj7KEMEkMUE
 
 # indexing
 https://www.youtube.com/watch?v=6ZquiVH8AGU&t=4311s
 https://www.youtube.com/watch?v=YuRO9-rOgv4
 https://www.youtube.com/watch?v=-qNSXK7s7_w
-https://www.youtube.com/watch?v=wj7KEMEkMUE
-
-# b-ree
-https://www.youtube.com/watch?v=K1a2Bk8NrYQ
+https://www.youtube.com/watch?v=3G293is403I&t=13s
+https://www.youtube.com/playlist?list=PL6n9fhu94yhXg5A0Fl3CQAo1PbOcRPjd0
 
 # query optimizations
 https://www.youtube.com/watch?v=BHwzDmr6d7s&t=10s
