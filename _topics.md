@@ -63,16 +63,11 @@
     Query Optimization
         Query execution plans
         Optimizing slow queries
-        Avoiding full table scans
-
-    Partitioning & Sharding
-        Horizontal vs. Vertical partitioning
-        MySQL sharding strategies   
+        Avoiding full table scans   
 
     Types of indexes (single-column, multi-column, composite)
     Index creation and best practices for indexing
     Full-text search indexing
-    Query execution plans and EXPLAIN
     Caching strategies and query performance improvements   
 
 6. Query Optimization & Performance Tuning
@@ -223,10 +218,12 @@
 13. Partitioning and Sharding
 
     Partitioning tables for performance optimization
+    Horizontal vs. Vertical partitioning
     Range, List, Hash, and Key partitioning types
     Sharding concepts for horizontal scaling
+    MySQL sharding strategies
     Strategies for cross-shard queries
-
+        
 13. Partitioning & Sharding
 
     ✔️ Table Partitioning (Range, List, Hash, Key)

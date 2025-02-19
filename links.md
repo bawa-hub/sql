@@ -4,6 +4,11 @@ https://register.educosys.com/new-courses/25?activeTab=content
 how database work - https://www.youtube.com/watch?v=8ogJlOIxKVE
 
 # b-tree
+https://builtin.com/data-science/b-tree-index
+https://www.scaler.com/topics/sql/b-tree-index/
+https://planetscale.com/blog/btrees-and-database-indexes
+https://planetscale.com/blog/how-do-database-indexes-work
+https://www.atlassian.com/data/sql/how-indexing-works
 https://www.youtube.com/watch?v=K1a2Bk8NrYQ
 https://www.youtube.com/watch?v=mgG0ecyNrfU&t=18s
 https://www.youtube.com/watch?v=09E-tVAUqQw&t=13s
