@@ -89,3 +89,6 @@ https://www.sql-practice.com/
 https://learnsql.com/cookbook/
 https://mode.com/sql-tutorial/sql-sub-queries/
 https://github.com/dalers/mywind
+
+# datasets
+https://mockaroo.com/

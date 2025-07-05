@@ -14,7 +14,7 @@
     Data Types (INT, VARCHAR, DATE, JSON, BLOB, etc.)
     CRUD Operations (SELECT, INSERT, UPDATE, DELETE)
 
-3. SQL Basics
+3. SQL 
 
     SELECT queries: Retrieving single and multiple columns
     Filtering with WHERE, AND, OR, BETWEEN, IN, LIKE, and REGEXP
@@ -24,15 +24,11 @@
     INSERT INTO and UPDATE queries
     Handling NULL values in queries
 
-4. Intermediate SQL
-
     SQL functions: IFNULL(), COALESCE(), CONCAT(), etc.
     Joins in-depth: INNER JOIN, LEFT JOIN, RIGHT JOIN, and CROSS JOIN
     Subqueries (correlated and uncorrelated subqueries)
     CASE and IF expressions for conditional logic
     Modifying data with UPDATE, DELETE, and REPLACE
-
-5. Advanced SQL
 
     Complex joins and multi-table joins
     UNION vs UNION ALL
@@ -53,7 +49,7 @@
     UNION, INTERSECT, EXCEPT
     JSON Functions (Parsing JSON in MySQL)
 
-6. Performance Optimization
+4. Performance Optimization & Performance Tuning
 
     Indexes
         Types of indexes: B-tree, Full-text, Hash
@@ -70,8 +66,6 @@
     Full-text search indexing
     Caching strategies and query performance improvements   
 
-6. Query Optimization & Performance Tuning
-
     ✔️ EXPLAIN & EXPLAIN ANALYZE for Query Plans
     ✔️ Understanding Query Execution Order
     ✔️ Using SHOW PROFILE to Analyze Query Performance
@@ -84,14 +78,12 @@
     ✔️ Avoiding Full Table Scans
     ✔️ Performance Benchmarking
 
-7. Advanced Performance Tuning
-
     Query optimization techniques: Joins, subqueries, and indexing
     Monitoring MySQL performance: Using tools like mysqltuner and MySQL Enterprise Monitor
     Server profiling, slow query logs, and query cache tuning
     Optimizing disk I/O and memory usage
 
-8. Database Design & Normalization
+5. Database Design & Normalization
 
     Understanding Database Design
         Primary keys, foreign keys, unique constraints
@@ -102,23 +94,18 @@
         1NF, 2NF, 3NF, BCNF, etc.
         When to normalize vs. denormalize    
 
-
-8. Database Design & Normalization
-
     ✔️ Primary Keys, Foreign Keys, and Constraints
     ✔️ Relationships: One-to-One, One-to-Many, Many-to-Many
     ✔️ Indexes: Single-Column, Composite, Full-Text, Hash
     ✔️ Normalization (1NF → 5NF), Denormalization When Needed
     ✔️ Data Integrity (Check Constraints, Triggers)
 
-8. Data Integrity and Constraints
-
     Foreign keys and referential integrity
     Cascading operations (ON DELETE CASCADE, ON UPDATE CASCADE)
     Unique constraints and composite keys
     Data validation strategies and triggers
 
-9. Concurrency & Transactions
+6. Concurrency & Transactions
 
     ACID Properties
         Atomicity, Consistency, Isolation, Durability
@@ -131,15 +118,11 @@
         Row-level, table-level, and deadlocks
         Optimistic vs. Pessimistic locking    
 
-9. Transactions and ACID Properties
-
     COMMIT, ROLLBACK, and SAVEPOINT in-depth
     Different transaction isolation levels
     Deadlocks and how to avoid them
     Locking mechanisms (Table-level locking, Row-level locking, Deadlock detection)
     Using SET AUTOCOMMIT for auto-commit behavior
-
-9. Transactions & Concurrency
 
    ✔️ ACID Properties in Detail
    ✔️ Isolation Levels:
@@ -155,15 +138,13 @@
     Gap Locks
     ✔️ Optimistic vs. Pessimistic Locking
 
-10. Security and Access Control
+7. Security and Access Control
 
     User management: Creating, altering, and dropping users
     Privileges and GRANTing specific access
     Host-based authentication
     Security best practices (password management, SSL encryption)
     Protecting against SQL Injection attacks
-
-10. Security & Best Practices
 
     User Management & Authentication
         Creating users and assigning privileges
@@ -177,7 +158,7 @@
         Logical and physical backups
         Point-in-time recovery
 
-11. Backup, Restore, and High Availability
+8. Backup, Restore, High Availability, Scaling, Clustering, Partition and Sharding
 
     Backup strategies: Full backups, incremental backups, and point-in-time backups
     Using mysqldump and mysqlpump for backup
@@ -185,8 +166,6 @@
     Point-in-time recovery with binary logs
     Master-slave replication and failover
     Using MySQL Group Replication and MySQL InnoDB Cluster for high availability
-
-12. High Availability & Scaling
 
     Replication
         Master-Slave and Master-Master replication
@@ -200,14 +179,10 @@
         Load balancing
         Connection pooling
 
-12. High Availability & Scaling
-
     ✔️ Replication (Master-Slave, Master-Master, GTID Replication)
     ✔️ Failover Handling (Semi-Synchronous, Heartbeat Monitoring)
     ✔️ Load Balancing (MySQL Proxy, HAProxy, ProxySQL)
-    ✔️ MySQL Clustering (Galera Cluster, MySQL NDB Cluster)v
-
-12. Replication and Clustering
+    ✔️ MySQL Clustering (Galera Cluster, MySQL NDB Cluster)
 
     Configuring Master-Slave replication
     Setting up Master-Master replication
@@ -215,35 +190,47 @@
     Understanding replication delays and how to handle them
     MySQL Cluster: Setting up, scaling, and managing
 
-13. Partitioning and Sharding
-
     Partitioning tables for performance optimization
     Horizontal vs. Vertical partitioning
     Range, List, Hash, and Key partitioning types
     Sharding concepts for horizontal scaling
     MySQL sharding strategies
     Strategies for cross-shard queries
-        
-13. Partitioning & Sharding
 
     ✔️ Table Partitioning (Range, List, Hash, Key)
     ✔️ Vertical vs. Horizontal Partitioning
     ✔️ Sharding Strategies (Application-Level, Proxy-Based)
     ✔️ Federated Tables in MySQL
 
-14. MySQL with NoSQL Features
+    Scaling strategies for large applications
+    Dealing with large datasets (indexing, partitioning, archiving)
+    Handling concurrency and load balancing
+    Understanding and optimizing join-heavy queries
+    
+    ✔️ Multi-Tenant Database Design
+    ✔️ Time-Series Data in MySQL
+    ✔️ Handling Millions of Rows Efficiently
+    ✔️ Using MySQL with Kafka for Real-Time Data Processing
+    ✔️ MySQL vs. NoSQL – When to Use What?
+    1️⃣ Partitioning Large Tables for Performance
+    2️⃣ Query Caching & Buffer Pool Optimization
+    3️⃣ Indexing for Multi-Tenant Databases
+    1️⃣ Simulate heavy write loads (bulk inserts, transactions)?
+    2️⃣ Master MySQL replication & scaling (Read/Write Splitting, Sharding)?
+
+9. MySQL with NoSQL Features
 
     Using MySQL with JSON data type
     Full-text search indexes and search engines
     Using MySQL as a document store
 
-15. Cloud and MySQL as a Service
+10. Cloud and MySQL as a Service
 
     MySQL on cloud platforms (AWS RDS, Azure Database for MySQL)
     Scaling MySQL in cloud environments
     Database as a Service (DBaaS) and best practices for cloud migrations
 
-16. Monitoring, Logs, and Diagnostics
+11. Monitoring, Logs, and Diagnostics
 
     Using MySQL logs (error logs, general logs, slow query logs)
     Monitoring tools and setting up alerts (Prometheus, Grafana)
@@ -251,36 +238,13 @@
     Analyzing performance and optimizing MySQL configurations
 
 
-16. Backup, Recovery & Disaster Planning
+12. Backup, Recovery & Disaster Planning
 
     ✔️ Backup Strategies (Logical, Physical, Incremental)
     ✔️ Point-in-Time Recovery (Binary Logs)
     ✔️ Failover Planning  
 
-16. Backup, Recovery & Disaster Planning
-
-    ✔️ Backup Strategies (Logical, Physical, Incremental)
-    ✔️ Point-in-Time Recovery (Binary Logs)
-    ✔️ Failover Planning
-
-
-17. MySQL in Large-Scale Applications
-
-    Scaling strategies for large applications
-    Dealing with large datasets (indexing, partitioning, archiving)
-    Handling concurrency and load balancing
-    Understanding and optimizing join-heavy queries
-
-17. MySQL for Large-Scale Applications
-
-    ✔️ Multi-Tenant Database Design
-    ✔️ Time-Series Data in MySQL
-    ✔️ Handling Millions of Rows Efficiently
-    ✔️ Using MySQL with Kafka for Real-Time Data Processing
-    ✔️ MySQL vs. NoSQL – When to Use What?
-
-
-17. Security & Best Practices
+13. Security & Best Practices
 
     ✔️ User Roles & Permissions (GRANT, REVOKE)
     ✔️ Row-Level Security (Per-User Data Access)
@@ -288,39 +252,30 @@
     ✔️ Data Encryption (TLS, AES Encryption)
     ✔️ Audit Logging & Compliance
 
-18. Best Practices for MySQL Development
+14. Best Practices for MySQL Development
 
     Database design principles and normalization (1NF, 2NF, 3NF)
     Writing efficient queries and avoiding common pitfalls (e.g., SELECT *, N+1 query problem)
     Managing database migrations
     Continuous integration and deployment (CI/CD) for databases
 
-19. Projects
+15. Projects & Case Studies
 
     Building real-world MySQL applications (e.g., e-commerce, blogs, etc.)
     Integrating MySQL with back-end frameworks (Node.js, Django, etc.)
     Performance tuning in live systems
-
-19. Real-World Projects & Case Studies
 
     Designing a real-world database schema
     Building a high-performance application with MySQL
     Implementing replication and sharding
     Running performance benchmarks
 
-19. Real-World Projects & Case Studies
-
     ✔️ E-commerce System with MySQL
     ✔️ Building a Real-Time Analytics Dashboard
     ✔️ Scaling a Web App like Instagram/YouTube with MySQL
     ✔️ Load Testing & Performance Optimization in MySQL
 
-20. Extraa
-    1️⃣ Partitioning Large Tables for Performance
-    2️⃣ Query Caching & Buffer Pool Optimization
-    3️⃣ Indexing for Multi-Tenant Databases
-    1️⃣ Simulate heavy write loads (bulk inserts, transactions)?
-    2️⃣ Master MySQL replication & scaling (Read/Write Splitting, Sharding)?
+16. Extraa
     -- 1. quering                    
     -- 2. sorting                    
     -- 3. filtering                      
